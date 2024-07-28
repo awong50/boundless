@@ -49,3 +49,11 @@ app.on('window-all-closed', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
+
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.navbar__menu');
+
+menu.addEventListener('click', function() {
+  menu.classList.toggle('is-active');
+  menuLinks.classList.toggle('active');
+});
