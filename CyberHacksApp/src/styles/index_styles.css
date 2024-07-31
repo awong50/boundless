@@ -31,8 +31,8 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #00ff66;
+  background-image: linear-gradient(to top, #005d02 0%, #00ff15 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -68,6 +68,7 @@
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
 .navbar__btn {
@@ -89,18 +90,19 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
+  background: #063de3;
+  transition: background 0.5s ease, color 0.5s ease;
   color: #fff;
 }
 
 .button:hover {
-  background: #4837ff;
-  transition: all 0.3s ease;
+  background: #249cf8;
+  transition: all .5s ease;
 }
 
 .navbar__links:hover {
-  color: #f77062;
-  transition: all 0.3s ease;
+  color: #097505;
+  transition: all 0.5s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -225,8 +227,8 @@
 
 .main__content h1 {
   font-size: 4rem;
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #142edd;
+  background-image: linear-gradient(to top, #0a5502 0%, rgb(6, 254, 76) 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -237,8 +239,8 @@
 .main__content h2 {
   font-size: 4rem;
   margin-top: 10px;
-  background-color: #ff8177;
-  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  background-color: #142edd;
+  background-image: linear-gradient(-20deg, #277027 0%, #11a431 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -254,7 +256,7 @@
 
 .main__btn {
   font-size: 1rem;
-  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to top, #032b76 0%, #2e70fc 100%);
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
@@ -280,7 +282,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #4837ff;
+  background: linear-gradient(to top, #064bcb 0%, #6193ff 100%);
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -366,15 +368,15 @@
 }
 
 .services h1 {
-  background-color: #ff8177;
+  background-color: #00f008;
   background-image: linear-gradient(
     to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #02ee2e 0%,
+    #02ee2e 0%,
+    #03c326 21%,
+    #01b922 52%,
+    #01a820 78%,
+    #03961e 100%
   );
   background-size: 100%;
   -webkit-background-clip: text;
